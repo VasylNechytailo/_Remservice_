@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>RemService</title>
+        <link href="./css/main.css" rel="stylesheet">
+    
+       </head>
+    <body>
+        <header>
+
+            <h1>RemService</h1>
+            <div class="table">
+            <table class="head-menu">
+                <tr><a href="#service-form" id="head-serv-button">Service</a></tr>
+                <tr><a href="#rent-form" id="head-rent-button">Rent</a></tr>
+                <tr><a href="#contact" id="head-contact-button">Contact</a></tr>
+            </table>
+            </div>
+
+        </header>
+        <div class="main">
+        
+
+        <div class="service">
+            <form id="service-form" action="" method="post">
+                <label for="car-type">Car type</label>
+                <br>
+                <select name="car-type" id="car-type">
+                    <option value="car">Car</option>
+                    <option value="suv">SUV</option>
+                    <option value="bus">BUS</option>
+                    <option value="other">Other</option>
+                </select>
+                <br>
+                <label for="fuel">Fuel type</label>
+                <br>
+                <select name="fuel" id="fuel">
+                    <option value="petrol">Petrol</option>
+                    <option value="diesel">Diesel</option>
+                    <option value="electric">Electric</option>
+                </select>
+                <br>
+                <label for="service-type">Service type</label>
+                <br>
+                <select name="service-type" id="service-type">
+                    <option value="oil-change">Oil change</option>
+                    <option value="engine">Engine</option>
+                    <option value="chassis">Chassis</option>
+                    <option value="tyres">Tyres</option>
+                    <option value="body">Bodywork</option>
+                </select>
+                <br>
+                <label for="name-service">Name</label>
+                <input id="name-service" type="text">
+                <br>
+                <label for="tel-service">Tel.</label>
+                <input id="tel-service" type="number">
+                <br>
+                <input id="submit-button-service" type="submit" value="SUBMIT">
+            </form>
+            <img src="" alt="service image">
+
+        </div>
+        <hr>
+        
+        <div class="rent">
+            <form id="rent-form" action="" method="post">
+            <label for="name-rent">Name</label>
+                <input id="name-rent" type="text">
+                <br>
+                <label for="tel-rent">Tel.</label>
+                <input id="tel-rent" type="number">
+                <br>
+                <input id="submit-button-rent" type="submit" value="SUBMIT">
+            </form>
+            <img src="" alt="rent image">
+
+        </div>
+        <hr>
+
+        <div class="map">
+            <h3 id="find-us">How to find us</h3>
+            <img src="" alt="map">
+
+
+        </div>
+   
+
+        <footer class="contact">
+            <h3 id="contact">Contact information</h3>
+            <p>Remsha Illya</p>
+            <p>Tel. 067-420-69-69</p>
+            <p>email: remsha@remservice.ck.ua</p>
+            <p>Adress</p>
+
+        </footer>
+        </div>
+    </body>
+</html>

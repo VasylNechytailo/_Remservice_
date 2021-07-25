@@ -1,0 +1,32 @@
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(49, 49, 49);
+    color: rgba(255, 222, 179, 0.774);
+    width: fit-content;
+    
+}
+.table {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#head-serv-button {
+    background-color: skyblue;
+    color: rgb(3, 3, 3);
+    height: 50px;
+    width: 150px;
+
+}
+header {
+    margin-bottom: 0px;
+   background-image: url("/img/head.png"); 
+   height: 380px;
+   width: auto;
+}
+.main {
+    font-family: monospace;
+    background-image: url("/img/body-bg1.jpg") ;
+    
+}
+.service {
+    background: rgb(252,237,44);
+    background: linear-gradient(90deg, rgba(252,237,44,0.7251633929939163) 0%, rgba(255,189,0,0.24056955545890235) 100%); 
+}
